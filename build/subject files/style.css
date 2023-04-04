@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 1rem;
+}
+:root {
+    --primary-color: linear-gradient(to bottom, #ed4264, #e7ad0e);
+    --gradient-white: linear-gradient(to bottom right, rgba(255,255,255,0.5), rgba(255,255,255,0.2));
+    --light-gradient: linear-gradient(to bottom right, rgba(255,255,255,0.6), rgba(255,255,255,0.4))
+}
+body {
+    background: linear-gradient(to bottom right, #60a5fa, #7c3aed);
+    /* height: 100vh; */
+}
+
+/* header section start  */
+.information {
+    background: var(--gradient-white);
+    max-height: fit-content;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 68, 0);
+    text-align: center;
+    font-weight: 200;
+}
+/* header section end  */
+
+/* main section start  */
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--gradient-white);
+    margin: 1rem;
+    border-radius: 1rem;
+    min-height: 80vh;
+}
+
+/* notes start here  */
+.notes,
+.question-papers {
+    background: var(--light-gradient);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    border: 1px solid white;
+    transition: 0.5s;
+    height: 80vh;
+}
+.notes:hover,
+.question-papers:hover {
+    box-shadow: 2px 2px 20px #fff;
+    translate: 0 -0.5rem;
+}
+table {
+    position: relative;
+    padding: 0.5rem;
+    height: 35rem;
+    width: 37rem;
+    font-weight: 700;
+
+}
+th, td {
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 1.3rem;
+    font-size: 1.3rem;
+}
+th {
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 2.5rem 1rem;
+    font-size: 1.6rem;
+}
+a {
+    font-size: 1.3rem;
+    color: rgb(35, 71, 189);
+    transition: 0.3s;
+    text-align: center;
+}
+a:hover {
+    color: rgb(167, 143, 10);
+
+}
+/* main sectin ends here  */
+
+
+@media (max-width: 760px) {
+    .information, 
+    main,
+    .notes,
+    .question-papers  {
+        margin: 0.3rem;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    table {
+        padding: 0.5rem;
+        margin: 1rem;
+        min-width: 20rem;
+        width: 90%;
+    }
+    th {
+        font-weight: 900;
+        font-size: 1.2rem;
+        padding: 1rem 1rem;
+    }
+    td,a {
+        font-size: 1rem;
+        padding-top: 1rem 1.3rem;
+    }
+}

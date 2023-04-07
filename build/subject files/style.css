@@ -79,6 +79,7 @@ th, td {
 }
 th {
     background: var(--primary-color);
+    background-clip: initial;
     -webkit-background-clip: text;
     color: transparent;
     padding: 2.5rem 1rem;

@@ -24,7 +24,7 @@ module.exports = {
         },
         'hamburger-menu': {
           '0%': { transform: 'scale(0)', opacity: '1',},
-          '60%': { transform: 'scale(1.1)', opacity: '1'},
+          '40%': { transform: 'scale(1.1)', opacity: '1'},
           '100%': { transform: 'scale(1)', opacity: '1'}
         },
         // 'hamburger-menu-inner': {

@@ -23,14 +23,14 @@ module.exports = {
           '100%': { transform: 'scaleY(1)', tranform: 'translateX(0)'}
         },
         'hamburger-menu': {
-          '0%': { transform: 'scale(0)', opacity: '0' },
+          '0%': { transform: 'scale(0)', opacity: '1',},
           '60%': { transform: 'scale(1.1)', opacity: '1'},
           '100%': { transform: 'scale(1)', opacity: '1'}
         },
-        'hamburger-menu-inner': {
-          '0%': { transform: 'scale(0.5)', opacity: '0' },
-          '100%': { transform: 'scale(1)', opacity: '1'}
-        },
+        // 'hamburger-menu-inner': {
+        //   '0%': { transform: 'scale(0.5)', opacity: '0' },
+        //   '100%': { transform: 'scale(1)', opacity: '1'}
+        // },
         'starter': {
           '0%': {transform: 'translateY(30%)', opacity: '0'},
           '40%': {transform: 'translateY(0%)', opacity: '1'},
@@ -48,7 +48,7 @@ module.exports = {
         'open-menu': 'open-menu 15s infinite ease-in-out forwards',
         'open-menu-reverse': 'open-menu-reverse 15s infinite ease-in-out alternate',
         'hamburger-menu': 'hamburger-menu 1s ease-in-out forwards',
-        'hamburger-menu-inner': 'hamburger-menu-inner 0.8s 0.3s ease-in-out forwards',
+        // 'hamburger-menu-inner': 'hamburger-menu-inner 0.8s 0.3s ease-in-out forwards',
         'starter': 'starter 3s ease-in-out',
         'starter-head': 'starter-head 3s ease-in-out',
       }

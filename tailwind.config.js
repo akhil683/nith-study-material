@@ -24,7 +24,7 @@ module.exports = {
         },
         'hamburger-menu': {
           '0%': { transform: 'scale(0)', opacity: '1',},
-          '40%': { transform: 'scale(1.1)', opacity: '1'},
+          '80%': { transform: 'scale(1.1)', opacity: '1'},
           '100%': { transform: 'scale(1)', opacity: '1'}
         },
         // 'hamburger-menu-inner': {
@@ -47,7 +47,7 @@ module.exports = {
       animation: {
         'open-menu': 'open-menu 15s infinite ease-in-out forwards',
         'open-menu-reverse': 'open-menu-reverse 15s infinite ease-in-out alternate',
-        'hamburger-menu': 'hamburger-menu 1s ease-in-out forwards',
+        'hamburger-menu': 'hamburger-menu 0.7s ease-in-out forwards',
         // 'hamburger-menu-inner': 'hamburger-menu-inner 0.8s 0.3s ease-in-out forwards',
         'starter': 'starter 3s ease-in-out',
         'starter-head': 'starter-head 3s ease-in-out',

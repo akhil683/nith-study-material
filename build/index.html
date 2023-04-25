@@ -45,37 +45,44 @@
     <section id="mobile-menu" class="z-60 top-0 hidden min-h-full origin-top-right animate-hamburger-menu flex-col justify-center bg-gradient-to-b from-[rgba(84,8,197,0.5)] to-[rgba(94,4,240,0.1)] font-Montserrat">
       <div class="my-6 flex flex-col items-center justify-center">
         <img class="h-16 w-16 rounded-full" src="images/logo.webp" alt=""/>
-        <h2 class="mt-2 font-Montserrat text-5xl font-extrabold leading-tight">
+        <h2 class="mt-2 font-Montserrat text-4xl font-extrabold leading-tight">
           NIT Hamirpur
         </h2>
         <p class="text-sm leading-none text-violet-200">NITH'26</p>
       </div>
 
-      <div class="flex flex-col items-center justify-center text-2xl font-semibold">
-        <a href="#Four-credit" id="materials" class="my-6 flex cursor-pointer items-center justify-start gap-4 py-1">
+      <div class="flex flex-col items-center justify-center text-lg font-semibold">
+        <a href="#Four-credit" id="materials" class="my-6 flex cursor-pointer items-center justify-start">
           <img class="h-8 w-8 rounded-lg" src="images/home.png" alt="" />
           <h3 class="animate-hamburger-menu-inner duration-500 hover:translate-x-3">
             Four Credit 
           </h3>
         </a>
-        <a href="#Three-credit" id="materials" class="my-6 flex cursor-pointer items-center justify-start gap-4 py-1">
+        <a href="#Three-credit" id="materials" class="my-6 flex cursor-pointer items-center justify-start">
           <img class="rounded-lg h-8 w-8" src="images/about.png" alt="" />
           <h3 class="animate-hamburger-menu-inner duration-500 hover:translate-x-3 hover:text-violet-800" >
             Three Credit
           </h3>
         </a>
-        <div id="materials" class="my-6 flex cursor-pointer items-center justify-start gap-4 py-1">
+        <div id="materials" class="my-6 flex cursor-pointer items-center justify-start">
           <img class="h-8 w-8 rounded-lg" src="images/contact.png" alt="" />
           <h3 class="animate-hamburger-menu-inner duration-500 hover:translate-x-3 hover:text-violet-800">
             Youtube
           </h3>
         </div>
-        <a href="#FAQ" id="materials" class="my-6 flex cursor-pointer items-center justify-start gap-4 py-1">
+        <a href="#FAQ" id="materials" class="my-6 flex cursor-pointer items-center justify-start">
           <img class="h-8 w-8 rounded-lg" src="images/resources.png" alt="" />
           <h3 class="animate-hamburger-menu-inner duration-500 hover:translate-x-3 hover:text-violet-800">
             FAQs
           </h3>
         </a>
+        <a href="https://drive.google.com/drive/folders/1P2jvbkFa6nDdQHEdDQnDk3GsrchqUONw" id="materials" class="my-6 flex cursor-pointer items-center justify-start">
+          <img class="h-8 w-8 rounded-lg" src="images/resources.png" alt="" />
+          <h3 class="animate-hamburger-menu-inner duration-500 hover:translate-x-3 hover:text-violet-800">
+            Youtube Revanced
+          </h3>
+        </a>
+
       </div>
 
       <!-- social media handles  -->
@@ -106,6 +113,123 @@
       </div>
 
       <!-- HOME PAGE - syllabus links -->
+      <section class="relative flex min-h-screen flex-col items-center justify-center gap-0 bg-gradient-to-r from-blue-400 to-violet-600 sm:gap-20">
+        <!-- blured section  -->
+        <div class="z-10 m-0 flex min-h-[80vh] w-full flex-wrap justify-start gap-[5%] rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.6)] to-[rgba(255,255,255,0.2)] p-4 backdrop-blur-lg sm:p-0 xl:m-20 lg:w-[90%] xl:w-[80%]">
+            <!-- navigation bar -->
+          <div class="hidden w-[20%] rounded-lg bg-[rgba(255,255,255,0.2)] p-8 sm:block">
+            <!-- profile  -->
+            <div class="my-6 flex flex-col items-center justify-center">
+              <img class="h-16 w-16 rounded-full" src="images/logo.webp" alt=""/>
+              <h3 class="font-serif text-md mt-2 font-semibold leading-tight">NIT Hamirpur</h3>
+              <p class="text-xs leading-none">NITH'26</p>
+            </div>
+            <!-- nav links  -->
+            <div class="font-semibold">
+              <a href="#Four-credit" class="my-8 flex items-center justify-start gap-4 py-1">
+                <img class="h-8 w-8 rounded-lg" src="images/home.png" alt="" />
+                <h3 class="hidden duration-500 hover:translate-x-3 lg:block">
+                    Four Credit
+                </h3>                
+              </a>
+              <a href="#Three-credit" class="my-8 flex items-center justify-start gap-4 py-1">
+                <img class="rounded-lg h-8 w-8" src="images/about.png" alt="" />
+                <h3 class="hidden duration-500 hover:translate-x-3 hover:text-violet-800 lg:block">
+                  Three Credit
+                </h3>
+              </a>
+              <a href="#Labs" class="my-8 flex items-center justify-start gap-4 py-1">
+                <img class="h-8 w-8 rounded-lg" src="images/contact.png" alt=""/>
+                <h3 class="hidden duration-500 hover:translate-x-3 hover:text-violet-800 lg:block">
+                  Labs
+                </h3>
+              </a>
+              <a href="#Youtube" class="my-8 flex items-center justify-start gap-4 py-1">
+                <img class="h-8 w-8 rounded-lg" src="images/resources.png" alt=""/>
+                <h3 class="hidden duration-500 hover:translate-x-3 hover:text-violet-800 lg:block">
+                  Youtube
+                </h3>
+              </a>
+            </div>
+            <!-- premium section  -->
+            <div class="hover:color-black relative mt-16 flex cursor-pointer flex-wrap items-center justify-center rounded-xl bg-gradient-to-tr from-cyan-400 to-blue-500 px-4 py-1">
+                <a href="pdf files/complete syllabus.pdf" class="mb-1 w-20 text-white">
+                    Complete Syllabus Download
+                </a>
+              <img class="h-12 w-12 rounded-full" src="images/premium.webp" alt=""/>
+            </div>
+          </div>
+          <!-- study material  -->
+          <div class="w-100% sm:w-[75%]">
+            <div class="my-14">
+              <h1 class="rounded-xl border-b-4 border-violet-600 bg-gradient-to-b from-cyan-500 to-violet-700 bg-clip-text p-2 text-4xl font-bold text-transparent">
+                Combine Syllabus
+              </h1>
+            </div>
+            <!-- year wise partition -->
+            <div class="flex flex-wrap items-center justify-center gap-10">
+                <div class="flex h-40 w-72 cursor-pointer flex-wrap gap-x-8 rounded-xl bg-[rgba(255,255,255,0.6)] px-6 py-2 shadow-xl duration-200 ease-in hover:-translate-y-1 hover:bg-[rgba(255,255,255,0.8)] hover:shadow-violet-300 xl:h-44 xl:w-72">
+                <img class="h-16 w-16 rounded-lg" src="images/4.webp" alt=""/>
+                <h3 class="m-auto font-Montserrat font-bold text-2xl text-cyan-600 tracking-tighter">Four Credit</h3>
+                <div class="translate-x-3 font-bebas text-lg">
+                  <p class="translate-y-2">Math, EE & CY</p><br/>
+                  <p class="-translate-y-3">PH & CE</p>
+                </div>
+                <div class="translate-x-8 translate-y-2 text-sm text-white font-Montserrat tracking-tight">
+                  <a href="pdf files/MA, EE & CY.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2  hover:bg-indigo-500">SYLLABUS</a><br/><br/>
+                  <a href="pdf files/PH & CE.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2 hover:bg-indigo-500">SYLLABUS</a>
+                </div>
+              </div>
+                <div class="flex h-40 w-72 cursor-pointer flex-wrap gap-x-8 rounded-xl bg-[rgba(255,255,255,0.6)] px-6 py-2 shadow-xl duration-200 ease-in hover:-translate-y-1 hover:bg-[rgba(255,255,255,0.8)] hover:shadow-violet-300 xl:h-44 xl:w-72">
+                <img class="h-16 w-16 rounded-lg" src="images/3.webp" alt=""/>
+                <h3 class="m-auto font-Montserrat font-bold text-2xl text-cyan-600 tracking-tighter">Three Credit</h3>
+                <div class="translate-x-3 font-bebas text-lg">
+                  <p class="translate-y-2">HS & MS </p><br />
+                  <p class="-translate-y-3">CS & EC</p>
+                </div>
+                <div class="translate-x-16 translate-y-2 text-sm text-white font-Montserrat tracking-tight">
+                  <a href="pdf files/HS 7 MS.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2  hover:bg-indigo-500">SYLLABUS</a><br/> <br/>
+                  <a href="pdf files/CS & EC.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2 hover:bg-indigo-500">SYLLABUS</a>
+                </div>
+              </div>
+                <div class="flex h-40 w-72 cursor-pointer flex-wrap gap-x-8 rounded-xl bg-[rgba(255,255,255,0.6)] px-6 py-2 shadow-xl duration-200 ease-in hover:-translate-y-1 hover:bg-[rgba(255,255,255,0.8)] hover:shadow-violet-300 xl:h-44 xl:w-72">
+                <img class="h-16 w-16 rounded-lg" src="images/lab.webp" alt=""/>
+                <h3 class="m-auto font-Montserrat font-bold text-2xl text-cyan-600 tracking-tighter">The LABS</h3>
+                <div class="translate-x-3 font-bebas text-lg">
+                  <p class="translate-y-2">CY, HS & EE</p> <br />
+                  <p class="-translate-y-3">EC, PH & CS</p>
+                </div>
+                <div class="translate-x-12 translate-y-2 text-sm text-white font-Montserrat tracking-tight">
+                  <a href="pdf files/CY EE HS LAB.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2  hover:bg-indigo-500">SYLLABUS</a><br/> <br/>
+                  <a href="pdf files/EC CS PH LAB.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2 hover:bg-indigo-500">SYLLABUS</a>
+                </div>
+              </div>
+                <div class="flex h-40 w-72 cursor-pointer flex-wrap gap-x-8 rounded-xl bg-[rgba(255,255,255,0.6)] px-6 py-2 shadow-xl duration-200 ease-in hover:-translate-y-1 hover:bg-[rgba(255,255,255,0.8)] hover:shadow-violet-300 xl:h-44 xl:w-72">
+                <img class="h-16 w-16 rounded-lg" src="images/pk-sood.webp" alt=""/>
+                <h3 class="m-auto font-Montserrat font-bold text-2xl text-cyan-600 tracking-tighter">PK - Sood</h3>
+                <div class="translate-x-3 font-bebas text-lg">
+                  <p class="translate-y-2">ED</p><br />
+                  <p class="-translate-y-3">Workshop</p>
+                </div>
+                <div class="translate-x-12 translate-y-2 text-sm text-white font-Montserrat tracking-tight">
+                  <a href="pdf files/ED.pdf" target="_blank" alt="" class="rounded-lg bg-indigo-700 p-2  hover:bg-indigo-500">SYLLABUS</a><br/> <br/>
+                  <a href="pdf files/WORKSHOP.pdf" target="_blank" class="rounded-lg bg-indigo-700 p-2 hover:bg-indigo-500">SYLLABUS</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- static circles -->
+        <div class="absolute right-[20%] top-20 h-40 w-52 animate-open-menu rounded-full bg-gradient-to-br from-[rgba(255,255,255,0.5)] to-[rgba(255,255,255,0.2)]"></div>
+        <div class="absolute bottom-20 left-[15%] h-40 w-52 animate-open-menu-reverse rounded-full bg-gradient-to-br from-[rgba(255,255,255,0.5)] to-[rgba(255,255,255,0.2)]"></div>
+
+        <!-- animated circles  -->
+        <div class="absolute left-1/3 top-1/3 h-52 w-52 animate-open-menu rounded-full bg-gradient-to-br from-[rgba(255,255,255,0.5)] to-[rgba(255,255,255,0.1)]"></div>
+        <div class="absolute bottom-1/3 right-1/3 h-52 w-52 animate-open-menu-reverse rounded-full bg-gradient-to-br from-[rgba(255,255,255,0.5)] to-[rgba(255,255,255,0.1)]"></div>
+      </section>
+
+
       <section class="flex justify-center bg-gradient-to-r from-blue-400 to-violet-600">
         <!-- blured section  -->
         <div id="Four-credit" class="z-10 m-0 relative flex min-h-[80vh] w-full flex-wrap justify-start gap-[5%] rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.6)] to-[rgba(255,255,255,0.2)] p-4 backdrop-blur-lg sm:p-0 xl:m-20 lg:w-[90%] xl:w-[75%]">
@@ -153,10 +277,9 @@
               </div>
             </div>
             <!-- premium section  -->
-            <div class="hover:color-black relative mt-16 flex cursor-pointer flex-wrap items-center justify-center rounded-xl bg-gradient-to-tr from-cyan-400 to-blue-500 px-4 py-1">
-              <h3 class="mb-1 w-20 text-white">Premium study material</h3>
-              <img class="h-12 w-12 rounded-full" src="images/premium.webp" alt=""/>
-            </div>
+            <div class="hover:color-black relative mt-16 flex cursor-pointer flex-col font-bebas tracking-wider items-center justify-center rounded-xl  px-4 py-1 text-white text-lg">
+            <a href="https://drive.google.com/drive/folders/1P2jvbkFa6nDdQHEdDQnDk3GsrchqUONw" alt="" target="_blank" class="rounded-lg bg-blue-500 p-2 w-48 text-center mb-2 duration-300 hover:bg-indigo-700 shadow-2xl hover:shadow-violet-200">Youtube Revanced</a>
+          </div>
           </div>
           <!-- study material  -->
           <div class="w-100% sm:w-[75%]">
@@ -303,11 +426,6 @@
               </div>
             </div>
   
-            <!-- premium section  -->
-            <div class="hover:color-black relative mt-16 flex cursor-pointer flex-col font-bebas tracking-wider items-center justify-center rounded-xl  px-4 py-1 text-white text-lg">
-                <a href="#" download="https://akhilpalsra004.github.io/akhilwebsite/jungkook-modified.png" alt="Screenshot-2023-02-23-111759" class="rounded-lg bg-blue-500 p-2 w-48 text-center mb-2 duration-300 hover:bg-indigo-700 shadow-2xl hover:shadow-violet-200">Workshop</a>
-                <a href="https://drive.google.com/drive/folders/1vnmmEq_lPE-SwccxBJnCgdlN3bV02BWI?usp=share_link" target="_blank" alt="Screenshot-2023-02-23-111759" class="rounded-lg bg-blue-500 p-2 w-48 text-center duration-300 hover:bg-indigo-700">Engineering Drawing</a>
-            </div>
           </div>
   
           <!-- study material  -->

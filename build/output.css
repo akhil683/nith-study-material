@@ -1023,6 +1023,10 @@ video {
   gap: 5%;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-x-8 {
   -moz-column-gap: 2rem;
        column-gap: 2rem;
@@ -1270,11 +1274,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1329,6 +1328,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {

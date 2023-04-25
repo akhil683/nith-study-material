@@ -593,10 +593,6 @@ video {
   top: 5rem;
 }
 
-.top-6 {
-  top: 1.5rem;
-}
-
 .top-\[10\%\] {
   top: 10%;
 }
@@ -1086,11 +1082,6 @@ video {
   background-color: rgba(255,255,255,0.6);
 }
 
-.bg-blue-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
-}
-
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
@@ -1279,6 +1270,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1312,11 +1308,6 @@ video {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
   line-height: 1;
 }
 
